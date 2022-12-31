@@ -32,7 +32,7 @@ def repeated_names():
             if(list[i] == list[j]):
                 print(True)
             else:
-                print(False)"""
+                print(False)
 list = ["John", "Kate", "John", "David"]
         
 def repeat_name():
@@ -47,11 +47,29 @@ def repeat_name():
 
 
 
-name_check = repeat_name()
+name_check = repeat_name()"""
 
 
+#Algorith task 4 sort numbers
 
-#run_name = repeated_names()
+number_array = [3, 5, 6, 7, 8, 3 ,4, 6, 7, 4]
+new_array = []
+
+"""while number_array:
+    minimum = number_array[0]
+    for x in number_array:
+        if x < minimum:
+            minimum = x
+    new_array.append(minimum)
+    number_array.remove(minimum)
+
+print(new_array)"""
+
+for i in range(len(number_array)):
+    for j in range(i+1, len(number_array)):
+        if number_array[i] > number_array[j]:
+            number_array[i], number_array[j] = number_array[j], number_array[i]
+print(number_array)
 
 
 
