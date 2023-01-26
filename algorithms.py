@@ -1,6 +1,6 @@
 #Algorithm to determine odd or even number
 
-"""def determine_odd_even():
+def determine_odd_even():
     num = int(input("Enter a number"))
     mod = num % 2
     print(mod == 0)
@@ -47,7 +47,7 @@ def repeat_name():
 
 
 
-name_check = repeat_name()"""
+name_check = repeat_name()
 
 
 #Algorith task 4 sort numbers
@@ -55,7 +55,7 @@ name_check = repeat_name()"""
 number_array = [3, 5, 6, 7, 8, 3 ,4, 6, 7, 4]
 new_array = []
 
-"""while number_array:
+while number_array:
     minimum = number_array[0]
     for x in number_array:
         if x < minimum:
@@ -63,7 +63,7 @@ new_array = []
     new_array.append(minimum)
     number_array.remove(minimum)
 
-print(new_array)"""
+print(new_array)
 
 for i in range(len(number_array)):
     for j in range(i+1, len(number_array)):
